@@ -1,0 +1,15 @@
+n = int(input())
+num = n
+string_num = str(num)
+h = len(string_num)
+j = int(h)
+sum = 0
+for i in range(0 , h):
+    b =  string_num[i] 
+    k = int(b)
+    sum += k ** j
+print(sum)
+if(sum == num):
+    print( "given input is armstrong number")
+else:
+    print( "given input is not an armstrong number")       

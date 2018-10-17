@@ -1,0 +1,12 @@
+a = list(map(int,input().split()))
+b = a
+k = len(b)
+for i in range(0 , len(b)):
+    print(a[i])
+    i = i + 1
+for i in range(0 , len(b)):
+    if(a[i] != 5):
+        print(a[i])
+         
+    
+

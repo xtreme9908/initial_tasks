@@ -1,0 +1,8 @@
+def fibonacchi(n):
+    if(n <= 1):
+        return n
+    else:
+        return(fibonacchi(n - 1) + fibonacchi(n - 2))
+n = int(input())
+for i in range(0 , n):
+    print(fibonacchi(i))

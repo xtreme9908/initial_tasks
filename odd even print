@@ -1,0 +1,8 @@
+n = int(input())
+a = []
+k = int(input("odd1 2even"))
+for i in range(0 , n):
+    a.append(int(input()))
+b =sum(a[ : :k])
+print(b)
+    

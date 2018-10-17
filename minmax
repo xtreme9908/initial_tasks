@@ -1,0 +1,7 @@
+n = int(input("how many numbers"))
+a = list(map(int,input().split()[:n]))
+a.sort()
+min = a[0:n-1:1]
+max = a[1:n:1]
+print(sum(min))
+print(sum(max))

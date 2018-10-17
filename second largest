@@ -1,0 +1,22 @@
+n = int(input())
+a = []
+for i in range (0 , n):
+    a.append(int(input()))
+temp = a[0]
+index = 0
+second = a[0]
+for i in range (0 , n):
+    if(a[i] > temp):
+        temp = a[i]
+for i in range(0 , n):
+    if(a[i]!=temp):
+        if(a[i] > second):
+            second = a[i]
+print(second)
+    
+    
+    
+        
+
+            
+            
