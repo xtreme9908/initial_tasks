@@ -12,4 +12,4 @@ print(sum)
 if(sum == num):
     print( "given input is armstrong number")
 else:
-    print( "given input is not an armstrong number")       
+    print( " not an armstrong number")       
