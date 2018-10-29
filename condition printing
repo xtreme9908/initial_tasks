@@ -7,6 +7,10 @@ for i in range(0 , len(b)):
 for i in range(0 , len(b)):
     if(a[i] != 5):
         print(a[i])
+        print(i)
          
-    
+
+
+
+
 
